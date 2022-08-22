@@ -114,6 +114,29 @@
             }
           ],
         },
+        mediaCondition: 'min-width',
+        deviceManager: {
+          devices: [
+            {
+              id: 'mobile',
+              name: 'Mobile',
+              width: '375',
+              widthMedia: '',
+              height: '667',
+            },
+            {
+              id: 'tablet',
+              name: 'Tablet',
+              width: '768',
+            },
+            {
+              id: 'desktop',
+              name: 'Desktop',
+              width: '',
+              widthMedia: '1280',
+            },
+          ],
+        },
       });
 
       editor.BlockManager.add('testBlock', {
